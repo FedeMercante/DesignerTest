@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Freedom Cars - Rental Car</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="default.css" />
+  <link rel="stylesheet" type="text/css" href="component.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="js/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        maxwidth: 1400,
+        speed: 800,
+        pager: true,
+      });
+    });
+  </script>  
+</head>
+<body>
+  <header>
+    <nav>
+      <div id="container">
+        <ul>
+          <li><a href="inicio.html"><img src="images/freedom.svg"></a></li>
+          <li>         
+            <form method="POST" action="http://mysevidor/php/buscador.php3"> 
+              <input type="text" name="T1" size="20" placeholder="Search for cars"> 
+              <input type="submit" value=""/>
+            </form>
+          </li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="customer.html">Customer Testimonials</a></li>
+          <li><a href="logout">Log out</a></li> 
+          <li><a href="settings"></a></li>
+          <li><a href="account"></a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <div id="wrapper">
+    <!-- Slideshow 1 -->
+    <div id="container">
+      <ul class="rslides" id="slider1">
+        <li><img src="images/sandero.png" alt=""></li>
+        <li><img src="images/clio.png" alt=""></li>
+        <li><img src="images/peugeot.png" alt=""></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

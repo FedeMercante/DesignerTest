@@ -1,0 +1,225 @@
+body {
+	margin: 0;
+}
+
+#container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+	height: 100%;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+nav {
+	height: 75px;
+    margin-top: 40px;
+    background-color: #FF3D00;
+}
+
+nav ul li:first-child {
+	margin-right: 150px;
+}
+
+nav ul li:nth-child(2){
+	width: 388px;
+/*	border: solid black 1px;*/
+	border-radius: 15px;
+	background: white;
+}
+
+nav ul li:nth-child(3), nav ul li:nth-child(4){
+	margin-left: 20px;
+}
+
+nav ul li:nth-child(5){
+	margin-left: 45px;
+}
+
+nav ul li:nth-child(5) a{
+	font-weight: 500;
+}
+
+nav ul li:nth-child(6), nav ul li:last-child{
+	margin-left: 10px
+}
+
+form {
+	/*width: 100%;*/
+	padding: 5px;
+	padding-left: 15px;
+}
+
+form input:last-child {
+	background-color: white;
+    border: none;
+    background-image: url(images/search.png);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    width:20px
+}
+
+form input:first-child {
+	border: none;
+	width: 90%;
+}
+
+li a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: black;
+	text-decoration: none;
+}
+
+ul li:nth-child(6) a {
+	background-image: url(images/settings.svg);
+	background-repeat: no-repeat;
+	padding-right: 27px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+ul li:last-child a {
+	background-image: url(images/account.svg);
+	background-repeat: no-repeat;
+	padding-right: 27px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+ul li:nth-child(6) a:hover {
+	background-image: url(images/settingsh.svg);
+	background-repeat: no-repeat;
+	padding-right: 27px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+ul li:last-child a:hover {
+	background-image: url(images/accounth.svg);
+	background-repeat: no-repeat;
+	padding-right: 27px;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+}
+
+/*////////////section a/////////////*/
+
+#fondo{
+	height: 600px;
+	background-image: url(images/fondo.jpg);
+	background-repeat: no-repeat;
+}
+
+article{
+	width: 30%;
+	float: left;
+}
+
+section article:first-child div{
+	background-image: url(images/clio.png);
+	padding-bottom: 230px;
+	background-repeat: no-repeat;
+}
+
+section article:nth-child(2) div{
+	background-image: url(images/sandero.png);
+	padding-bottom: 230px;
+	background-repeat: no-repeat;
+}
+
+section article:nth-child(3) div{
+	background-image: url(images/208.png);
+	padding-bottom: 230px;
+	background-repeat: no-repeat;
+}
+
+section article:nth-child(2), section article:nth-child(3) {
+	margin-left: 50px
+}
+
+.clear {clear: both;}
+
+/*////first-article/////*/
+
+/*section article:first-child */h2 {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-weight: 500;
+	font-size: 30px;
+	background-color: #001F6D;
+	padding: 7px;
+	width: 37%;
+    display: inline-block;
+    margin: 0;
+}
+
+/*	section article:first-child*/ h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	width: 20%;
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+/*	section article:first-child*/ h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	width: 20%;
+    display: inline-block;
+    margin: 20px 0 10px 0;
+}
+
+section p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	margin: 0 0 30px 0;
+}
+
+
+/*////second-article/////*/
+
+	section article:nth-child(2) h2 {
+
+}
+
+	section article:nth-child(2) h3 {
+}
+
+	section article:nth-child(2) h4 {
+}
+
+
+/*////third-article/////*/
+
+	section article:nth-child(2) h2 {
+}
+
+	section article:nth-child(2) h3 {
+}
+
+	section article:nth-child(2) h4 {
+
+}
